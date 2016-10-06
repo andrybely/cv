@@ -4,11 +4,6 @@
     background: lightgray;
     bottom: 0;
     opacity: 0.95;
-    width: 100%;
-    max-width: 960px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 .footer-nav {
@@ -17,7 +12,7 @@
     line-height: 36px;
 }
 
-.header-nav-item {
+.footer-nav-item {
     list-style: none;
     padding: 0 20px;
     margin: 0;
