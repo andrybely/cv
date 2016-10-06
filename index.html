@@ -1,107 +1,150 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Беляев Андрей младший разработчик ruby on rails</title>
+    <meta charset="UTF-8">
+    <title>Беляев Андрей младший разработчик ruby on rails</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="parallax.js-1.4.2/parallax.min.js"></script>
 </head>
+
 <body>
-<div class="container">
-  <div class="row">
-    <div class="twelve columns"> 
-      <div>
-        <h1>Беляев Андрей Александрович</h1>
-        <h2>Младший разработчик Ruby on Rails</h2>
-        <p><img src="image1.jpg" width="15%" height="4%"/></p>
-  </div>
-  <div>
-    <h3>Контакты</h3>
-    <p>+7(977) 831-84-77</p>
-    <p>WhatsApp, Viber</p>
-    <p>E-mail: a.belyaev.10@gmail.com</p>
-    <p><a href="mailto:a.belyaev.10@gmail.com">Написать мне сообщение</a></p>
-    <a href="https://www.facebook.com/andrey.belyaev.735" target="_blank">
-    Мой facebook</a>
-  </div>
-<br>
-  <div>
-	<h3>Навыки</h3>
-	  <ul>
-	    <li>SPSS</li>
-	    <li>Ruby</li>
-	    <li>RoR</li>
-	    <li>HTML</li>
-	    <li>CSS</li>
-	    <li>Linux</li>
-	    <li>SQLite</li>
-	    <li>Internet Marketing</li>
-	    <li>Google Analytics</li>
-	    <li>Управление проектами</li>
-	    <li>Техническая поддержка</li>
-	    <li>Администрирование сайтов</li>
-	    <li>Разработка технических заданий</li>
-	  </ul>
-	<a href="https://github.com/andrybely" target="_blank">
-	Мой профиль на GitHub</a>
-  </div>
-<br>
-  <div>
-	<h3>Опыт работы</h3>
-	  <ul>
-	    <li>Июль 2016 — по настоящее время</li>
-	    <p>Фриланс</p>
-
-	    <li>Июль 2015 — Декабрь 2015</li>
-	    <p>GfK Rus</p>
-	    <a href="http://www.gfk.ru" target="_blank">www.gfk.ru</a>
-	    <p>Координатор проектов</p>
-
-	    <li>Март 2013 — Май 2014</li>
-	    <p>Единая электронная торговая площадка, ОАО (группа ВТБ)</p>
-	    <a href="http://www.roseltorg.ru" target="_blank">www.roseltorg.ru</a>
-	    <p>Специалист отдела перспективных проектов</p>
-
-	    <li>Сентябрь 2011 — Март 2013</li>
-	    <p>Бонталон</p>
-	    <p>Коммерческий директор</p>
-
-	    <li>Сентябрь 2010 — Сентябрь 2011</li>
-	    <p>ООО "Экстрим" компьютерная сеть Марьино.net</p>
-	    <a href="http://maryno.net" target="_blank">Maryno.net</a>
-	    <p>PR-менеджер</p>
-
-	    <li>Декабрь 2004 — Август 2010</li>
-	    <p>ООО "Экстрим" компьютерная сеть Марьино.net</p>
-        <a href="http://maryno.net" target="_blank">Maryno.net</a>
-	    <p>Инженер связи / Ремонтник / Монтажник</p>
-
-	    <li>Декабрь 2001 — Декабрь 2002</li>
-	    <p>Tns МИЦ маркетинговый информационный центр</p>
-        <a href="http://www.tns-global.ru/" target="_blank">tns-global.ru</a>
-	    <p>Курьер</p>
-	  </ul>
-  </div>
-  <div>
-    <h3>Обо мне</h3>
-    <p>Родился в Москве в 1984 году</p>
-    <p>Проживаю также в Москве, метро Шипиловская</p>
-    <p>2008 - 2013 учился в Международной Академии Бизнеса и Управления</p>
-    <p>по специальности "Связи с общественностью"</p>
-  </div>
-<br>
-  <div>
-    <h5>Мое хобби - дайвинг</h5>
-    <p>Я инструктор по дайвингу PADI номер 337869</p>
-    <p>В свободное время занимаюсь спортом и изучаю все</p> 
-    <p>что связано с программированием</p>
-    <p>Без вредных привычек</p>
-  </div>
-  </div>
-  </div>
+<div class="header">
+    <div class="container">
+        <div class="header-nav">
+            <ul>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="#contacts">Контакты</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="#skills">Навыки</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="#experience">Опыт работы</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="#about">Обо мне</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
+
+<div class="container" id="intro">
+    <div class="row" data-parallax="scroll" data-image-src="image.jpg">
+        <div class="one.column">
+            <div>
+                <h1>Беляев Андрей Александрович</h1>
+                <h2>Младший разработчик Ruby on Rails</h2>
+                <p><img src="image1.jpg" width="15%" height="4%"/></p>
+            </div>
+            <div id="contacts">
+                <h3>Контакты</h3>
+                <p>+7(977) 831-84-77</p>
+                <p>WhatsApp, Viber</p>
+                <p>E-mail: a.belyaev.10@gmail.com</p>
+                <p><a href="mailto:a.belyaev.10@gmail.com">Написать мне сообщение</a></p>
+                <a href="https://www.facebook.com/andrey.belyaev.735" target="_blank">
+                    Мой facebook</a>
+            </div>
+            <br>
+            <div id="skills">
+                <h3>Навыки</h3>
+                <ul>
+                    <li>SPSS</li>
+                    <li>Ruby</li>
+                    <li>RoR</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Linux</li>
+                    <li>SQLite</li>
+                    <li>JavaScript и jQuery - базовый уровень</li>
+                    <li>Internet Marketing</li>
+                    <li>Google Analytics</li>
+                    <li>Управление проектами</li>
+                    <li>Техническая поддержка</li>
+                    <li>Администрирование сайтов</li>
+                    <li>Разработка технических заданий</li>
+                </ul>
+                <a href="https://github.com/andrybely" target="_blank">
+                    Мой профиль на GitHub</a>
+            </div>
+            <br>
+            <div id="experience">
+                <h3>Опыт работы</h3>
+                <ul>
+                    <li>Июль 2016 — по настоящее время</li>
+                    <p>Фриланс</p>
+
+                    <li>Июль 2015 — Декабрь 2015</li>
+                    <p>GfK Rus</p>
+                    <a href="http://www.gfk.ru" target="_blank">www.gfk.ru</a>
+                    <p>Координатор проектов</p>
+
+                    <li>Март 2013 — Май 2014</li>
+                    <p>Единая электронная торговая площадка, ОАО (группа ВТБ)</p>
+                    <a href="http://www.roseltorg.ru" target="_blank">www.roseltorg.ru</a>
+                    <p>Специалист отдела перспективных проектов</p>
+
+                    <li>Сентябрь 2011 — Март 2013</li>
+                    <p>Бонталон</p>
+                    <p>Коммерческий директор</p>
+
+                    <li>Сентябрь 2010 — Сентябрь 2011</li>
+                    <p>ООО "Экстрим" компьютерная сеть Марьино.net</p>
+                    <a href="http://maryno.net" target="_blank">Maryno.net</a>
+                    <p>PR-менеджер</p>
+
+                    <li>Декабрь 2004 — Август 2010</li>
+                    <p>ООО "Экстрим" компьютерная сеть Марьино.net</p>
+                    <a href="http://maryno.net" target="_blank">Maryno.net</a>
+                    <p>Инженер связи / Ремонтник / Монтажник</p>
+
+                    <li>Декабрь 2001 — Декабрь 2002</li>
+                    <p>Tns МИЦ маркетинговый информационный центр</p>
+                    <a href="http://www.tns-global.ru/" target="_blank">tns-global.ru</a>
+                    <p>Курьер</p>
+                </ul>
+            </div>
+            <div id="about">
+                <h3>Обо мне</h3>
+                <p>Родился в Москве в 1984 году</p>
+                <p>Проживаю также в Москве, метро Шипиловская</p>
+                <p>2008 - 2013 учился в Международной Академии Бизнеса и Управления</p>
+                <p>по специальности "Связи с общественностью"</p>
+            </div>
+            <br>
+            <div>
+                <h5>Мое хобби - дайвинг</h5>
+                <p>Я инструктор по дайвингу PADI номер 337869</p>
+                <p>В свободное время занимаюсь спортом и изучаю все</p>
+                <p>что связано с программированием</p>
+                <p>Без вредных привычек</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-nav">
+            <ul>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#intro">Вверх</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 </body>
+</html>
