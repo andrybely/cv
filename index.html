@@ -8,12 +8,39 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="parallax.js-1.4.2/parallax.min.js"></script>
 </head>
 
 <body>
+<div class="header">
+	<div class="container buffer-both">
+		<div class="header-nav">
+			<ul>
+				<li class="header-nav-item">
+					<a class="header-nav-link" href="#intro">Контакты</a>
+				</li>
+				<li class="header-nav-item">
+					<a class="header-nav-link" href="#team">Команда</a>
+				</li>
+				<li class="header-nav-item">
+					<a class="header-nav-link" href="#prices">Цены</a>
+				</li>
+				<li class="header-nav-item">
+					<a class="header-nav-link" href="#buy">Купить</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
 <div class="container">
-  <div class="row">
-    <div class="twelve columns"> 
+  <div class="row" data-parallax="scroll" data-image-src="image.jpg">
+    <div class="one.column">
       <div>
         <h1>Беляев Андрей Александрович</h1>
         <h2>Младший разработчик Ruby on Rails</h2>
@@ -104,4 +131,16 @@
   </div>
   </div>
 </div>
+
+
+<footer class="footer">
+	<div class="footer-nav">
+		<ul>
+			<li class="footer-nav-item">
+				<a class="footer-nav-link" href="#intro">Вверх</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+
 </body>
